@@ -1,0 +1,72 @@
+.:
+ejarchivos
+prueba
+
+./prueba:
+imagen
+imagen1
+imagenes
+texto1
+texto2
+texto3
+textos
+
+./prueba/imagenes:
+imagen
+imagen1
+
+./prueba/textos:
+textito
+.:
+ejarchivos
+prueba
+
+./prueba:
+imagen
+imagen1
+imagenes
+texto1
+texto2
+texto3
+textos
+
+./prueba/imagenes:
+imagen
+imagen1
+
+./prueba/textos:
+textito
+.:
+total 8
+lrwxrwxrwx 1 ceibal ceibal    4 jun 11 10:02 ehard -> imag
+-rw-rw-r-- 1 ceibal ceibal  290 jun 11 09:50 ejarchivos
+-rw-r--r-- 2 root   root      0 jun 11 09:18 imag
+drwxr-xr-x 4 root   root   4096 jun 11 09:32 prueba
+
+./prueba:
+total 8
+-rw-r--r-- 1 root root    0 jun 11 09:32 imagen
+-rw-r--r-- 1 root root    0 jun 11 09:32 imagen1
+drwxr-xr-x 2 root root 4096 jun 11 10:06 imagenes
+-rw-r--r-- 1 root root    0 jun 11 09:32 texto1
+-rw-r--r-- 1 root root    0 jun 11 09:32 texto2
+-rw-r--r-- 1 root root    0 jun 11 09:32 texto3
+drwxr-xr-x 2 root root 4096 jun 11 09:56 textos
+
+./prueba/imagenes:
+total 0
+-rw-r--r-- 2 root root 0 jun 11 09:18 ehard
+-rw-r--r-- 1 root root 0 jun 11 09:56 imag
+-rw-r--r-- 1 root root 0 jun 11 09:18 imagen
+
+./prueba/textos:
+total 0
+-rw-r--r-- 1 root root 0 jun 11 09:56 textito
+-rw-r--r-- 1 root root 0 jun 11 09:56 texto1
+-rw-r--r-- 1 root root 0 jun 11 09:56 texto2
+-rw-r--r-- 1 root root 0 jun 11 09:56 texto3
+-rw-r--r-- 1 root root 0 jun 11 09:56 textos
+userprueba:x:1001:1004::/home/userprueba:
+userprueba:x:1001:1004::/home/userprueba:
+groupprueba:x:1005:userprueba
+-rw-r--r-- 1 userprueba groupprueba 0 jun 11 09:56 ./prueba/imagenes/imag
